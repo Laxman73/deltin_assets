@@ -208,7 +208,7 @@ if(true)
 
 					$ql = "insert into log_login(iUserID, dtLog, vBrowser, vIP, cType)values('$u_id', NOW(), '$browser', '$ip', 'IN')";
 
-					$rl = sql_query($ql, "auth.88");
+				//	$rl = sql_query($ql, "auth.88");
 
 					header("location:".SITE_ADDRESS."home.php");
 
@@ -251,5 +251,3 @@ else
 	exit;
 
 }
-
-?>

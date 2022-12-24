@@ -1,15 +1,15 @@
 <?php
- // LOCAL
-define('SITE_ADDRESS','http://126.0.0.100/deltin_assets/');
-define('SITE_ADDRESS2','http://126.0.0.100/deltin_assets/');
-define('PWA_SITE_ADDRESS','http://126.0.0.100/deltin_assets/');
-define('DOCROOT','/sites/deltin_assets/');
-define('SITE_NAME','Deltin Asset Management System');  // 
+// LOCAL
+define('SITE_ADDRESS', 'http://126.0.0.87/deltin_assets/');
+define('SITE_ADDRESS2', 'http://126.0.0.87/deltin_assets/');
+define('PWA_SITE_ADDRESS', 'http://126.0.0.87/deltin_assets/');
+define('DOCROOT', 'C:/xampp/htdocs/deltin_assets/');
+define('SITE_NAME', 'Deltin Asset Management System');  // 
 
-define('DB_HOST','126.0.0.100');
-define('DB_USERNAME','root');
-define('DB_PASSWORD','');
-define('DB_NAME','assetmgmnt');  // */
+define('DB_HOST', '126.0.0.100');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'assetmgmnt');  // */
 
 /* // STAGING
 define('SITE_ADDRESS','http://staging.teaminertia.com/mrfarmer_staff/');
@@ -25,4 +25,3 @@ define('DB_NAME','stagin27_mfr_staff');  // */
 
 /* // LIVE
 // */
-?>
